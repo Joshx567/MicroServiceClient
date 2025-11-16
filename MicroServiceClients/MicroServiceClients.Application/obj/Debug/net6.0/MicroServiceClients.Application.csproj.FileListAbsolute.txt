@@ -1,0 +1,15 @@
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Application\obj\Debug\net6.0\MicroServiceClients.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Application\obj\Debug\net6.0\MicroServiceClients.Application.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Application\obj\Debug\net6.0\MicroServiceClients.Application.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Application\obj\Debug\net6.0\MicroServiceClients.Application.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Application\bin\Debug\net6.0\MicroServiceClients.Application.deps.json
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Application\bin\Debug\net6.0\MicroServiceClients.Application.dll
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Application\bin\Debug\net6.0\MicroServiceClients.Application.pdb
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Application\bin\Debug\net6.0\MicroServiceClients.Domain.dll
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Application\bin\Debug\net6.0\MicroServiceClients.Domain.pdb
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Application\obj\Debug\net6.0\MicroServiceClients.Application.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Application\obj\Debug\net6.0\MicroSer.746EC623.Up2Date
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Application\obj\Debug\net6.0\MicroServiceClients.Application.dll
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Application\obj\Debug\net6.0\refint\MicroServiceClients.Application.dll
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Application\obj\Debug\net6.0\MicroServiceClients.Application.pdb
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Application\obj\Debug\net6.0\ref\MicroServiceClients.Application.dll

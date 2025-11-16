@@ -1,0 +1,17 @@
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Infrastructure\obj\Debug\net6.0\MicroServiceClients.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Infrastructure\obj\Debug\net6.0\MicroServiceClients.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Infrastructure\obj\Debug\net6.0\MicroServiceClients.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Infrastructure\obj\Debug\net6.0\MicroServiceClients.Infrastructure.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Infrastructure\obj\Debug\net6.0\MicroServiceClients.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Infrastructure\bin\Debug\net6.0\MicroServiceClients.Infrastructure.deps.json
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Infrastructure\bin\Debug\net6.0\MicroServiceClients.Infrastructure.dll
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Infrastructure\bin\Debug\net6.0\MicroServiceClients.Infrastructure.pdb
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Infrastructure\bin\Debug\net6.0\MicroServiceClients.Application.dll
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Infrastructure\bin\Debug\net6.0\MicroServiceClients.Domain.dll
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Infrastructure\bin\Debug\net6.0\MicroServiceClients.Application.pdb
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Infrastructure\bin\Debug\net6.0\MicroServiceClients.Domain.pdb
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Infrastructure\obj\Debug\net6.0\MicroSer.D68E4EFD.Up2Date
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Infrastructure\obj\Debug\net6.0\MicroServiceClients.Infrastructure.dll
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Infrastructure\obj\Debug\net6.0\refint\MicroServiceClients.Infrastructure.dll
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Infrastructure\obj\Debug\net6.0\MicroServiceClients.Infrastructure.pdb
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Infrastructure\obj\Debug\net6.0\ref\MicroServiceClients.Infrastructure.dll
