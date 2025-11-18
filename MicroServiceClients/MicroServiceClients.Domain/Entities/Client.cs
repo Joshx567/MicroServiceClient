@@ -11,10 +11,10 @@ namespace ServiceClient.Domain.Entities
 
         public bool IsActive { get; set; } = true;
 
-        public string? FitnessLevel { get; set; }
-        public decimal? InitialWeightKg { get; set; }
-        public decimal? CurrentWeightKg { get; set; }
-        public string? EmergencyContactPhone { get; set; }
+        public string FitnessLevel { get; set; }
+        public decimal InitialWeightKg { get; set; }
+        public decimal CurrentWeightKg { get; set; }
+        public string EmergencyContactPhone { get; set; }
 
         // Auditoría
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
@@ -22,4 +22,5 @@ namespace ServiceClient.Domain.Entities
         public DateTime? LastModification { get; set; }
         public string? LastModifiedBy { get; set; }            
     }
+
 }
