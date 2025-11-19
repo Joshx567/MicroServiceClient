@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MicroServiceClients.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3a16d3f63a34196bc7e6a95b63d09d5fc8fb44e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f152f834551b0a0973ad5f2f77df83371c8846b")]
 [assembly: System.Reflection.AssemblyProductAttribute("MicroServiceClients.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MicroServiceClients.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

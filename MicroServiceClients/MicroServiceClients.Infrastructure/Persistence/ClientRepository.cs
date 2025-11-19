@@ -22,7 +22,7 @@ public class ClientRepository : IClientRepository
         // La entidad 'Client' ya debe venir con los valores necesarios (name, ci, etc.)
         const string sql = @"
             INSERT INTO public.clients (
-                name, first_lastname, second_lastname, date_birth, ci, isActive,
+                name, first_lastname, second_lastname, date_birth, ci, is_active,
                 fitness_level, initial_weight_kg, current_weight_kg, emergency_contact_phone,
                 created_at, created_by
             )
@@ -67,7 +67,7 @@ public class ClientRepository : IClientRepository
                 second_lastname = @SecondLastname,
                 date_birth = @DateBirth,
                 ci = @Ci,
-                isActive = @IsActive,
+                is_active = @IsActive,
                 fitness_level = @FitnessLevel,
                 current_weight_kg = @CurrentWeightKg,
                 emergency_contact_phone = @EmergencyContactPhone,
