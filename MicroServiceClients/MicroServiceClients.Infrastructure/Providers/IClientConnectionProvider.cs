@@ -18,7 +18,7 @@ namespace ServiceClient.Infrastructure.Providers
         public NpgsqlClientConnectionProvider(IConfiguration configuration)
         {
             // Lee la cadena de conexión desde appsettings.json
-            _connectionString = configuration.GetConnectionString("DefaultConnection")
+            _connectionString = configuration.GetConnectionString("Postgres")
                 ?? throw new InvalidOperationException("La cadena de conexión 'DefaultConnection' no fue encontrada.");
         }
 
