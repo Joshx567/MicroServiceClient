@@ -13,3 +13,4 @@ C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroS
 C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Application\obj\Debug\net6.0\refint\MicroServiceClients.Application.dll
 C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Application\obj\Debug\net6.0\MicroServiceClients.Application.pdb
 C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Application\obj\Debug\net6.0\ref\MicroServiceClients.Application.dll
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Application\obj\Debug\net6.0\MicroServiceClients.Application.sourcelink.json

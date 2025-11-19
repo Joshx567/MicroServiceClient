@@ -15,3 +15,4 @@ C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroS
 C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Infrastructure\obj\Debug\net6.0\refint\MicroServiceClients.Infrastructure.dll
 C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Infrastructure\obj\Debug\net6.0\MicroServiceClients.Infrastructure.pdb
 C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Infrastructure\obj\Debug\net6.0\ref\MicroServiceClients.Infrastructure.dll
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Infrastructure\obj\Debug\net6.0\MicroServiceClients.Infrastructure.sourcelink.json

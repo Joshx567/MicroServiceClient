@@ -9,3 +9,4 @@ C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroS
 C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Domain\obj\Debug\net6.0\refint\MicroServiceClients.Domain.dll
 C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Domain\obj\Debug\net6.0\MicroServiceClients.Domain.pdb
 C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Domain\obj\Debug\net6.0\ref\MicroServiceClients.Domain.dll
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.Domain\obj\Debug\net6.0\MicroServiceClients.Domain.sourcelink.json
