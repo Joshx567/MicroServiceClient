@@ -19,34 +19,32 @@ public class ClientService : IClientService
 
     public async Task<Client> CreateAsync(Client client)
     {
-        // Primero, se valida el objeto que llega desde la capa de presentación.
         var validationResult = ClientValidationRules.Validate(client);
-
         if (validationResult.IsFailure)
         {
             throw new ArgumentException(validationResult.Error);
         }
 
-        // --- ¡ESTA ES LA LÍNEA DE LA SOLUCIÓN! ---
-        // Se asigna la fecha de creación ANTES de pasarlo a la capa de persistencia.
-        // Usar UtcNow es la mejor práctica para evitar problemas de zona horaria en el servidor.
+        // Asigna valores de negocio por defecto.
         client.CreatedAt = DateTime.UtcNow;
-        client.IsActive = true; // También es un buen lugar para establecer valores por defecto.
-        // ------------------------------------------
+        client.IsActive = true;
+        // Podrías asignar 'CreatedBy' aquí si tuvieras info del usuario.
+        // client.CreatedBy = "CurrentUser"; 
 
-        // Ahora el objeto 'client' se envía al repositorio con el valor de 'CreatedAt' ya establecido.
-        return await _clientRepository.CreateAsync(client);
-    }
+        // --- LÓGICA CORREGIDA ---
+        // 1. Llama al repositorio, que devuelve el ID del nuevo cliente.
+        var newId = await _clientRepository.AddAsync(client);
 
-    // --- El resto de los métodos no cambian ---
-    public async Task<IEnumerable<Client>> GetAllAsync()
-    {
-        return await _clientRepository.GetAllAsync();
-    }
+        // 2. Busca al cliente recién creado usando su nuevo ID para devolver el objeto completo.
+        //    Esto garantiza que obtienes los datos tal como quedaron en la BD (con defaults, etc.).
+        var createdClient = await _clientRepository.GetByIdAsync(newId);
+        if (createdClient == null)
+        {
+            // Esto sería muy raro, pero es una buena práctica manejarlo.
+            throw new InvalidOperationException("Error: No se pudo recuperar el cliente después de la creación.");
+        }
 
-    public async Task<Client?> GetByIdAsync(int id)
-    {
-        return await _clientRepository.GetByIdAsync(id);
+        return createdClient;
     }
 
     public async Task<Client?> UpdateAsync(Client client)
@@ -56,11 +54,30 @@ public class ClientService : IClientService
         {
             throw new ArgumentException(validationResult.Error);
         }
-        return await _clientRepository.UpdateAsync(client);
+
+        // --- LÓGICA CORREGIDA ---
+        // 1. Llama al repositorio, que devuelve 'true' si la actualización fue exitosa.
+        var success = await _clientRepository.UpdateAsync(client);
+
+        // 2. Si fue exitoso, devuelve el objeto cliente actualizado. Si no, devuelve null.
+        return success ? client : null;
     }
 
-    public async Task<bool> DeleteByIdAsync(int id)
+    // --- CORREGIDO: Renombrado el método y la llamada ---
+    public async Task<bool> DeleteAsync(int id)
     {
-        return await _clientRepository.DeleteByIdAsync(id);
+        // La llamada ahora coincide con el nombre del método en IClientRepository.
+        return await _clientRepository.DeleteAsync(id);
+    }
+
+    // --- Estos métodos ya estaban correctos ---
+    public async Task<IEnumerable<Client>> GetAllAsync()
+    {
+        return await _clientRepository.GetAllAsync();
+    }
+
+    public async Task<Client?> GetByIdAsync(int id)
+    {
+        return await _clientRepository.GetByIdAsync(id);
     }
 }

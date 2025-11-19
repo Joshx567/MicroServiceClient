@@ -38,17 +38,15 @@ namespace ServiceClient.Domain.Rules
             if (!OnlyNumbersRegex.IsMatch(client.Ci)) return Result<Client>.Failure("La cédula de identidad solo puede contener números y no puede ser negativa.");
 
             // Validación de Fecha de Nacimiento (Edad entre 18 y 50)
-            if (client.DateBirth == null) return Result<Client>.Failure("La fecha de nacimiento es obligatoria.");
             if (!IsAgeValid(client.DateBirth)) return Result<Client>.Failure("La edad del cliente debe estar entre 18 y 50 años.");
 
             // Validación del Peso Inicial
-            if (client.InitialWeightKg == null) return Result<Client>.Failure("El peso inicial es obligatorio.");
             if (client.InitialWeightKg < 30 || client.InitialWeightKg > 300) return Result<Client>.Failure("El peso inicial debe estar entre 30 y 300 kg.");
 
             // Validación del Peso Actual (opcional)
-            if (client.CurrentWeightKg.HasValue && client.CurrentWeightKg < 0)
+            if (client.CurrentWeightKg <= 0)
             {
-                return Result<Client>.Failure("El peso actual no puede ser un número negativo.");
+                return Result<Client>.Failure("El peso actual no puede ser un menor o igual a cero.");
             }
 
             // Validación del Teléfono de Emergencia

@@ -10,15 +10,10 @@ namespace ServiceClient.Domain.Ports
     /// </summary>
     public interface IClientRepository
     {
-        // --- ASEGÚRATE DE QUE ESTA FIRMA ESTÉ PRESENTE Y SEA PÚBLICA ---
-        Task<Client?> GetByIdAsync(int id);
-
+        Task<int> AddAsync(Client client); // Cambiado
         Task<IEnumerable<Client>> GetAllAsync();
-
-        Task<Client> CreateAsync(Client entity);
-
-        Task<Client?> UpdateAsync(Client entity);
-
-        Task<bool> DeleteByIdAsync(int id);
+        Task<Client?> GetByIdAsync(int id);
+        Task<bool> UpdateAsync(Client client); // Cambiado
+        Task<bool> DeleteAsync(int id);
     }
 }

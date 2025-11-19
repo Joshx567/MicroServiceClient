@@ -5,7 +5,6 @@ C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroS
 C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.API\obj\Debug\net6.0\MicroServiceClients.API.AssemblyInfo.cs
 C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.API\obj\Debug\net6.0\MicroServiceClients.API.csproj.CoreCompileInputs.cache
 C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.API\obj\Debug\net6.0\MicroServiceClients.API.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.API\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.API\bin\Debug\net6.0\appsettings.json
 C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.API\bin\Debug\net6.0\MicroServiceClients.API.staticwebassets.endpoints.json
 C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.API\bin\Debug\net6.0\MicroServiceClients.API.exe
@@ -57,3 +56,7 @@ C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroS
 C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.API\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\ASUS\source\repos\Gympt\MicroServicioClients\MicroServiceClients\MicroServiceClients.API\bin\Debug\net6.0\System.Runtime.CompilerServices.Unsafe.dll

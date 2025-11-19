@@ -1,27 +1,33 @@
+using ServiceClient.Domain.Ports;
+using ServiceClient.Infrastructure.Providers;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using ServiceClient.Application;
 using ServiceClient.Infrastructure;
-using ServiceClient.Infrastructure.DependencyInjection;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // -----------------------
-// 1. Registrar Módulos
+// 1. Controladores y Dapper
 // -----------------------
-builder.Services.AddClientModule(sp =>
-    builder.Configuration.GetConnectionString("Postgres"));
-
+builder.Services.AddControllers();
+Dapper.DefaultTypeMap.MatchNamesWithUnderscores = true;
 
 // -----------------------
-// 2. Registrar UserContext
+// 2. Inyección de dependencias
+// -----------------------
+builder.Services.AddScoped<IClientConnectionProvider, NpgsqlClientConnectionProvider>();
+builder.Services.AddScoped<IClientRepository, ClientRepository>();
+
+// -----------------------
+// 3. UserContext
 // -----------------------
 builder.Services.AddHttpContextAccessor();
-// builder.Services.AddScoped<IUserContext, UserContext>();  // si lo usas
+// builder.Services.AddScoped<IUserContext, UserContext>();  // activar si lo implementas
 
 // -----------------------
-// 3. Configurar JWT
+// 4. JWT
 // -----------------------
 var jwtKey = builder.Configuration["Jwt:Key"];
 var issuer = builder.Configuration["Jwt:Issuer"];
@@ -43,7 +49,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     });
 
 // -----------------------
-// 4. CORS
+// 5. CORS
 // -----------------------
 builder.Services.AddCors(options =>
 {
@@ -56,16 +62,16 @@ builder.Services.AddCors(options =>
 });
 
 // -----------------------
-// 5. Swagger
+// 6. Swagger
 // -----------------------
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// -----------------------
-builder.Services.AddControllers();
-
 var app = builder.Build();
 
+// -----------------------
+// Middleware
+// -----------------------
 app.UseCors("AllowWebApp");
 
 if (app.Environment.IsDevelopment())
@@ -74,7 +80,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseAuthentication();
+app.UseAuthentication(); // necesario para JWT
 app.UseAuthorization();
 
 app.MapControllers();

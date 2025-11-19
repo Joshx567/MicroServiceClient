@@ -3,12 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E8AE5409-F1DB-4188-8D24-B854C4F4740B}|MicroServiceClients.Infrastructure\\MicroServiceClients.Infrastructure.csproj|c:\\users\\asus\\source\\repos\\gympt\\microservicioclients\\microserviceclients\\microserviceclients.infrastructure\\providers\\iclientconnectionprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8AE5409-F1DB-4188-8D24-B854C4F4740B}|MicroServiceClients.Infrastructure\\MicroServiceClients.Infrastructure.csproj|solutionrelative:microserviceclients.infrastructure\\providers\\iclientconnectionprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8AE5409-F1DB-4188-8D24-B854C4F4740B}|MicroServiceClients.Infrastructure\\MicroServiceClients.Infrastructure.csproj|c:\\users\\asus\\source\\repos\\gympt\\microservicioclients\\microserviceclients\\microserviceclients.infrastructure\\persistence\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8AE5409-F1DB-4188-8D24-B854C4F4740B}|MicroServiceClients.Infrastructure\\MicroServiceClients.Infrastructure.csproj|solutionrelative:microserviceclients.infrastructure\\persistence\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{654C9DC7-3BA2-4271-8804-7FE7299E5882}|MicroServiceClients.Application\\MicroServiceClients.Application.csproj|c:\\users\\asus\\source\\repos\\gympt\\microservicioclients\\microserviceclients\\microserviceclients.application\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{654C9DC7-3BA2-4271-8804-7FE7299E5882}|MicroServiceClients.Application\\MicroServiceClients.Application.csproj|solutionrelative:microserviceclients.application\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD58F9C6-5C22-4FDD-ACEF-9063B6BD8656}|MicroServiceClients.Domain\\MicroServiceClients.Domain.csproj|c:\\users\\asus\\source\\repos\\gympt\\microservicioclients\\microserviceclients\\microserviceclients.domain\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD58F9C6-5C22-4FDD-ACEF-9063B6BD8656}|MicroServiceClients.Domain\\MicroServiceClients.Domain.csproj|solutionrelative:microserviceclients.domain\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD58F9C6-5C22-4FDD-ACEF-9063B6BD8656}|MicroServiceClients.Domain\\MicroServiceClients.Domain.csproj|c:\\users\\asus\\source\\repos\\gympt\\microservicioclients\\microserviceclients\\microserviceclients.domain\\ports\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD58F9C6-5C22-4FDD-ACEF-9063B6BD8656}|MicroServiceClients.Domain\\MicroServiceClients.Domain.csproj|solutionrelative:microserviceclients.domain\\ports\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD58F9C6-5C22-4FDD-ACEF-9063B6BD8656}|MicroServiceClients.Domain\\MicroServiceClients.Domain.csproj|c:\\users\\asus\\source\\repos\\gympt\\microservicioclients\\microserviceclients\\microserviceclients.domain\\microserviceclients.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CD58F9C6-5C22-4FDD-ACEF-9063B6BD8656}|MicroServiceClients.Domain\\MicroServiceClients.Domain.csproj|solutionrelative:microserviceclients.domain\\microserviceclients.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{654C9DC7-3BA2-4271-8804-7FE7299E5882}|MicroServiceClients.Application\\MicroServiceClients.Application.csproj|c:\\users\\asus\\source\\repos\\gympt\\microservicioclients\\microserviceclients\\microserviceclients.application\\interfaces\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{654C9DC7-3BA2-4271-8804-7FE7299E5882}|MicroServiceClients.Application\\MicroServiceClients.Application.csproj|solutionrelative:microserviceclients.application\\interfaces\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED80C00E-75FB-433D-BBE3-59AD30894301}|MicroServiceClients.API\\MicroServiceClients.API.csproj|c:\\users\\asus\\source\\repos\\gympt\\microservicioclients\\microserviceclients\\microserviceclients.api\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED80C00E-75FB-433D-BBE3-59AD30894301}|MicroServiceClients.API\\MicroServiceClients.API.csproj|solutionrelative:microserviceclients.api\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ED80C00E-75FB-433D-BBE3-59AD30894301}|MicroServiceClients.API\\MicroServiceClients.API.csproj|c:\\users\\asus\\source\\repos\\gympt\\microservicioclients\\microserviceclients\\microserviceclients.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED80C00E-75FB-433D-BBE3-59AD30894301}|MicroServiceClients.API\\MicroServiceClients.API.csproj|solutionrelative:microserviceclients.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED80C00E-75FB-433D-BBE3-59AD30894301}|MicroServiceClients.API\\MicroServiceClients.API.csproj|c:\\users\\asus\\source\\repos\\gympt\\microservicioclients\\microserviceclients\\microserviceclients.api\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED80C00E-75FB-433D-BBE3-59AD30894301}|MicroServiceClients.API\\MicroServiceClients.API.csproj|solutionrelative:microserviceclients.api\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED80C00E-75FB-433D-BBE3-59AD30894301}|MicroServiceClients.API\\MicroServiceClients.API.csproj|c:\\users\\asus\\source\\repos\\gympt\\microservicioclients\\microserviceclients\\microserviceclients.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ED80C00E-75FB-433D-BBE3-59AD30894301}|MicroServiceClients.API\\MicroServiceClients.API.csproj|solutionrelative:microserviceclients.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED80C00E-75FB-433D-BBE3-59AD30894301}|MicroServiceClients.API\\MicroServiceClients.API.csproj|c:\\users\\asus\\source\\repos\\gympt\\microservicioclients\\microserviceclients\\microserviceclients.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED80C00E-75FB-433D-BBE3-59AD30894301}|MicroServiceClients.API\\MicroServiceClients.API.csproj|solutionrelative:microserviceclients.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD58F9C6-5C22-4FDD-ACEF-9063B6BD8656}|MicroServiceClients.Domain\\MicroServiceClients.Domain.csproj|c:\\users\\asus\\source\\repos\\gympt\\microservicioclients\\microserviceclients\\microserviceclients.domain\\rules\\clientvalidationrules.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD58F9C6-5C22-4FDD-ACEF-9063B6BD8656}|MicroServiceClients.Domain\\MicroServiceClients.Domain.csproj|solutionrelative:microserviceclients.domain\\rules\\clientvalidationrules.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{654C9DC7-3BA2-4271-8804-7FE7299E5882}|MicroServiceClients.Application\\MicroServiceClients.Application.csproj|c:\\users\\asus\\source\\repos\\gympt\\microservicioclients\\microserviceclients\\microserviceclients.application\\microserviceclients.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -23,60 +63,24 @@
       "RelativeMoniker": "D:0:0:{E8AE5409-F1DB-4188-8D24-B854C4F4740B}|MicroServiceClients.Infrastructure\\MicroServiceClients.Infrastructure.csproj|solutionrelative:microserviceclients.infrastructure\\microserviceclients.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD58F9C6-5C22-4FDD-ACEF-9063B6BD8656}|MicroServiceClients.Domain\\MicroServiceClients.Domain.csproj|c:\\users\\asus\\source\\repos\\gympt\\microservicioclients\\microserviceclients\\microserviceclients.domain\\microserviceclients.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{CD58F9C6-5C22-4FDD-ACEF-9063B6BD8656}|MicroServiceClients.Domain\\MicroServiceClients.Domain.csproj|solutionrelative:microserviceclients.domain\\microserviceclients.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED80C00E-75FB-433D-BBE3-59AD30894301}|MicroServiceClients.API\\MicroServiceClients.API.csproj|c:\\users\\asus\\source\\repos\\gympt\\microservicioclients\\microserviceclients\\microserviceclients.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{ED80C00E-75FB-433D-BBE3-59AD30894301}|MicroServiceClients.API\\MicroServiceClients.API.csproj|solutionrelative:microserviceclients.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED80C00E-75FB-433D-BBE3-59AD30894301}|MicroServiceClients.API\\MicroServiceClients.API.csproj|c:\\users\\asus\\source\\repos\\gympt\\microservicioclients\\microserviceclients\\microserviceclients.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED80C00E-75FB-433D-BBE3-59AD30894301}|MicroServiceClients.API\\MicroServiceClients.API.csproj|solutionrelative:microserviceclients.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ED80C00E-75FB-433D-BBE3-59AD30894301}|MicroServiceClients.API\\MicroServiceClients.API.csproj|c:\\users\\asus\\source\\repos\\gympt\\microservicioclients\\microserviceclients\\microserviceclients.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{ED80C00E-75FB-433D-BBE3-59AD30894301}|MicroServiceClients.API\\MicroServiceClients.API.csproj|solutionrelative:microserviceclients.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{654C9DC7-3BA2-4271-8804-7FE7299E5882}|MicroServiceClients.Application\\MicroServiceClients.Application.csproj|c:\\users\\asus\\source\\repos\\gympt\\microservicioclients\\microserviceclients\\microserviceclients.application\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{654C9DC7-3BA2-4271-8804-7FE7299E5882}|MicroServiceClients.Application\\MicroServiceClients.Application.csproj|solutionrelative:microserviceclients.application\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{654C9DC7-3BA2-4271-8804-7FE7299E5882}|MicroServiceClients.Application\\MicroServiceClients.Application.csproj|c:\\users\\asus\\source\\repos\\gympt\\microservicioclients\\microserviceclients\\microserviceclients.application\\services\\detailclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{654C9DC7-3BA2-4271-8804-7FE7299E5882}|MicroServiceClients.Application\\MicroServiceClients.Application.csproj|solutionrelative:microserviceclients.application\\services\\detailclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8AE5409-F1DB-4188-8D24-B854C4F4740B}|MicroServiceClients.Infrastructure\\MicroServiceClients.Infrastructure.csproj|c:\\users\\asus\\source\\repos\\gympt\\microservicioclients\\microserviceclients\\microserviceclients.infrastructure\\dependencyinjection\\clientmoduleservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8AE5409-F1DB-4188-8D24-B854C4F4740B}|MicroServiceClients.Infrastructure\\MicroServiceClients.Infrastructure.csproj|solutionrelative:microserviceclients.infrastructure\\dependencyinjection\\clientmoduleservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CD58F9C6-5C22-4FDD-ACEF-9063B6BD8656}|MicroServiceClients.Domain\\MicroServiceClients.Domain.csproj|c:\\users\\asus\\source\\repos\\gympt\\microservicioclients\\microserviceclients\\microserviceclients.domain\\ports\\idetailclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD58F9C6-5C22-4FDD-ACEF-9063B6BD8656}|MicroServiceClients.Domain\\MicroServiceClients.Domain.csproj|solutionrelative:microserviceclients.domain\\ports\\idetailclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD58F9C6-5C22-4FDD-ACEF-9063B6BD8656}|MicroServiceClients.Domain\\MicroServiceClients.Domain.csproj|c:\\users\\asus\\source\\repos\\gympt\\microservicioclients\\microserviceclients\\microserviceclients.domain\\ports\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD58F9C6-5C22-4FDD-ACEF-9063B6BD8656}|MicroServiceClients.Domain\\MicroServiceClients.Domain.csproj|solutionrelative:microserviceclients.domain\\ports\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD58F9C6-5C22-4FDD-ACEF-9063B6BD8656}|MicroServiceClients.Domain\\MicroServiceClients.Domain.csproj|c:\\users\\asus\\source\\repos\\gympt\\microservicioclients\\microserviceclients\\microserviceclients.domain\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD58F9C6-5C22-4FDD-ACEF-9063B6BD8656}|MicroServiceClients.Domain\\MicroServiceClients.Domain.csproj|solutionrelative:microserviceclients.domain\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{654C9DC7-3BA2-4271-8804-7FE7299E5882}|MicroServiceClients.Application\\MicroServiceClients.Application.csproj|c:\\users\\asus\\source\\repos\\gympt\\microservicioclients\\microserviceclients\\microserviceclients.application\\interfaces\\idetailclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{654C9DC7-3BA2-4271-8804-7FE7299E5882}|MicroServiceClients.Application\\MicroServiceClients.Application.csproj|solutionrelative:microserviceclients.application\\interfaces\\idetailclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD58F9C6-5C22-4FDD-ACEF-9063B6BD8656}|MicroServiceClients.Domain\\MicroServiceClients.Domain.csproj|c:\\users\\asus\\source\\repos\\gympt\\microservicioclients\\microserviceclients\\microserviceclients.domain\\rules\\clientvalidationrules.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD58F9C6-5C22-4FDD-ACEF-9063B6BD8656}|MicroServiceClients.Domain\\MicroServiceClients.Domain.csproj|solutionrelative:microserviceclients.domain\\rules\\clientvalidationrules.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD58F9C6-5C22-4FDD-ACEF-9063B6BD8656}|MicroServiceClients.Domain\\MicroServiceClients.Domain.csproj|c:\\users\\asus\\source\\repos\\gympt\\microservicioclients\\microserviceclients\\microserviceclients.domain\\common\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD58F9C6-5C22-4FDD-ACEF-9063B6BD8656}|MicroServiceClients.Domain\\MicroServiceClients.Domain.csproj|solutionrelative:microserviceclients.domain\\common\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{654C9DC7-3BA2-4271-8804-7FE7299E5882}|MicroServiceClients.Application\\MicroServiceClients.Application.csproj|c:\\users\\asus\\source\\repos\\gympt\\microservicioclients\\microserviceclients\\microserviceclients.application\\interfaces\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{654C9DC7-3BA2-4271-8804-7FE7299E5882}|MicroServiceClients.Application\\MicroServiceClients.Application.csproj|solutionrelative:microserviceclients.application\\interfaces\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Infrastructure\\DependencyInjection\\ClientModuleServiceCollectionExtensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MicroServiceClients.Infrastructure\\DependencyInjection\\ClientModuleServiceCollectionExtensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,110 +90,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MicroServiceClients.API",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.API\\MicroServiceClients.API.csproj",
-              "RelativeDocumentMoniker": "MicroServiceClients.API\\MicroServiceClients.API.csproj",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.API\\MicroServiceClients.API.csproj",
-              "RelativeToolTip": "MicroServiceClients.API\\MicroServiceClients.API.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-19T14:44:31.818Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ClientsController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.API\\Controllers\\ClientsController.cs",
-              "RelativeDocumentMoniker": "MicroServiceClients.API\\Controllers\\ClientsController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.API\\Controllers\\ClientsController.cs*",
-              "RelativeToolTip": "MicroServiceClients.API\\Controllers\\ClientsController.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "IClientConnectionProvider.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Infrastructure\\Providers\\IClientConnectionProvider.cs",
+              "RelativeDocumentMoniker": "MicroServiceClients.Infrastructure\\Providers\\IClientConnectionProvider.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Infrastructure\\Providers\\IClientConnectionProvider.cs",
+              "RelativeToolTip": "MicroServiceClients.Infrastructure\\Providers\\IClientConnectionProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T14:47:18.397Z",
+              "WhenOpened": "2025-11-19T15:15:42.503Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "IClientService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Application\\Interfaces\\IClientService.cs",
+              "RelativeDocumentMoniker": "MicroServiceClients.Application\\Interfaces\\IClientService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Application\\Interfaces\\IClientService.cs",
+              "RelativeToolTip": "MicroServiceClients.Application\\Interfaces\\IClientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T15:27:35.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.API\\Controllers\\ClientController.cs",
+              "RelativeDocumentMoniker": "MicroServiceClients.API\\Controllers\\ClientController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.API\\Controllers\\ClientController.cs",
+              "RelativeToolTip": "MicroServiceClients.API\\Controllers\\ClientController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAYwFMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T15:08:40.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.API\\appsettings.json",
               "RelativeDocumentMoniker": "MicroServiceClients.API\\appsettings.json",
               "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.API\\appsettings.json",
               "RelativeToolTip": "MicroServiceClients.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-11-16T23:15:20.437Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MicroServiceClients.Application.csproj",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Application\\MicroServiceClients.Application.csproj",
-              "RelativeDocumentMoniker": "MicroServiceClients.Application\\MicroServiceClients.Application.csproj",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Application\\MicroServiceClients.Application.csproj",
-              "RelativeToolTip": "MicroServiceClients.Application\\MicroServiceClients.Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-16T23:14:26.376Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ClientModuleServiceCollectionExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Infrastructure\\DependencyInjection\\ClientModuleServiceCollectionExtensions.cs",
-              "RelativeDocumentMoniker": "MicroServiceClients.Infrastructure\\DependencyInjection\\ClientModuleServiceCollectionExtensions.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Infrastructure\\DependencyInjection\\ClientModuleServiceCollectionExtensions.cs",
-              "RelativeToolTip": "MicroServiceClients.Infrastructure\\DependencyInjection\\ClientModuleServiceCollectionExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T23:14:12.77Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Result.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Domain\\Common\\Result.cs",
-              "RelativeDocumentMoniker": "MicroServiceClients.Domain\\Common\\Result.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Domain\\Common\\Result.cs",
-              "RelativeToolTip": "MicroServiceClients.Domain\\Common\\Result.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T21:29:22.051Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.API\\Program.cs",
               "RelativeDocumentMoniker": "MicroServiceClients.API\\Program.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.API\\Program.cs*",
-              "RelativeToolTip": "MicroServiceClients.API\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAbAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.API\\Program.cs",
+              "RelativeToolTip": "MicroServiceClients.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-16T23:14:24.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IClientService.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Application\\Interfaces\\IClientService.cs",
-              "RelativeDocumentMoniker": "MicroServiceClients.Application\\Interfaces\\IClientService.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Application\\Interfaces\\IClientService.cs",
-              "RelativeToolTip": "MicroServiceClients.Application\\Interfaces\\IClientService.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAgwAcAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T21:24:54.013Z",
               "EditorCaption": ""
             },
             {
@@ -207,20 +172,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MicroServiceClients.Infrastructure.csproj",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Infrastructure\\MicroServiceClients.Infrastructure.csproj",
-              "RelativeDocumentMoniker": "MicroServiceClients.Infrastructure\\MicroServiceClients.Infrastructure.csproj",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Infrastructure\\MicroServiceClients.Infrastructure.csproj",
-              "RelativeToolTip": "MicroServiceClients.Infrastructure\\MicroServiceClients.Infrastructure.csproj",
+              "DocumentIndex": 2,
+              "Title": "ClientService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Application\\Services\\ClientService.cs",
+              "RelativeDocumentMoniker": "MicroServiceClients.Application\\Services\\ClientService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Application\\Services\\ClientService.cs",
+              "RelativeToolTip": "MicroServiceClients.Application\\Services\\ClientService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-13T21:21:11.776Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T21:29:05.53Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Domain\\Entities\\Client.cs",
+              "RelativeDocumentMoniker": "MicroServiceClients.Domain\\Entities\\Client.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Domain\\Entities\\Client.cs",
+              "RelativeToolTip": "MicroServiceClients.Domain\\Entities\\Client.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAEwBYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T21:13:50.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IClientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Domain\\Ports\\IClientRepository.cs",
+              "RelativeDocumentMoniker": "MicroServiceClients.Domain\\Ports\\IClientRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Domain\\Ports\\IClientRepository.cs",
+              "RelativeToolTip": "MicroServiceClients.Domain\\Ports\\IClientRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T21:27:00.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Infrastructure\\Persistence\\ClientRepository.cs",
+              "RelativeDocumentMoniker": "MicroServiceClients.Infrastructure\\Persistence\\ClientRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Infrastructure\\Persistence\\ClientRepository.cs",
+              "RelativeToolTip": "MicroServiceClients.Infrastructure\\Persistence\\ClientRepository.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAYwFoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T15:12:14.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.API\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "MicroServiceClients.API\\WeatherForecast.cs",
@@ -233,7 +237,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
+              "Title": "ClientModuleServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Infrastructure\\DependencyInjection\\ClientModuleServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "MicroServiceClients.Infrastructure\\DependencyInjection\\ClientModuleServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Infrastructure\\DependencyInjection\\ClientModuleServiceCollectionExtensions.cs",
+              "RelativeToolTip": "MicroServiceClients.Infrastructure\\DependencyInjection\\ClientModuleServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T23:14:12.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ClientValidationRules.cs.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Domain\\Rules\\ClientValidationRules.cs.cs",
+              "RelativeDocumentMoniker": "MicroServiceClients.Domain\\Rules\\ClientValidationRules.cs.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Domain\\Rules\\ClientValidationRules.cs.cs",
+              "RelativeToolTip": "MicroServiceClients.Domain\\Rules\\ClientValidationRules.cs.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwAIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T21:19:04.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MicroServiceClients.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Application\\MicroServiceClients.Application.csproj",
+              "RelativeDocumentMoniker": "MicroServiceClients.Application\\MicroServiceClients.Application.csproj",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Application\\MicroServiceClients.Application.csproj",
+              "RelativeToolTip": "MicroServiceClients.Application\\MicroServiceClients.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-16T23:14:26.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MicroServiceClients.API.csproj",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.API\\MicroServiceClients.API.csproj",
+              "RelativeDocumentMoniker": "MicroServiceClients.API\\MicroServiceClients.API.csproj",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.API\\MicroServiceClients.API.csproj",
+              "RelativeToolTip": "MicroServiceClients.API\\MicroServiceClients.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-19T14:44:31.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MicroServiceClients.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Infrastructure\\MicroServiceClients.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "MicroServiceClients.Infrastructure\\MicroServiceClients.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Infrastructure\\MicroServiceClients.Infrastructure.csproj",
+              "RelativeToolTip": "MicroServiceClients.Infrastructure\\MicroServiceClients.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-13T21:21:11.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "MicroServiceClients.API\\Properties\\launchSettings.json",
@@ -241,12 +306,11 @@
               "RelativeToolTip": "MicroServiceClients.API\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-16T23:15:36.092Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-16T23:15:36.092Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "DetailClientService.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Application\\Services\\DetailClientService.cs",
               "RelativeDocumentMoniker": "MicroServiceClients.Application\\Services\\DetailClientService.cs",
@@ -254,25 +318,11 @@
               "RelativeToolTip": "MicroServiceClients.Application\\Services\\DetailClientService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T21:27:49.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T21:27:49.249Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ClientService.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Application\\Services\\ClientService.cs",
-              "RelativeDocumentMoniker": "MicroServiceClients.Application\\Services\\ClientService.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Application\\Services\\ClientService.cs",
-              "RelativeToolTip": "MicroServiceClients.Application\\Services\\ClientService.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T21:29:05.53Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "IDetailClientRepository.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Domain\\Ports\\IDetailClientRepository.cs",
               "RelativeDocumentMoniker": "MicroServiceClients.Domain\\Ports\\IDetailClientRepository.cs",
@@ -280,12 +330,11 @@
               "RelativeToolTip": "MicroServiceClients.Domain\\Ports\\IDetailClientRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T21:27:02.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T21:27:02.885Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "IDetailClientService.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Application\\Interfaces\\IDetailClientService.cs",
               "RelativeDocumentMoniker": "MicroServiceClients.Application\\Interfaces\\IDetailClientService.cs",
@@ -293,47 +342,7 @@
               "RelativeToolTip": "MicroServiceClients.Application\\Interfaces\\IDetailClientService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T21:23:43.185Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Client.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Domain\\Entities\\Client.cs",
-              "RelativeDocumentMoniker": "MicroServiceClients.Domain\\Entities\\Client.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Domain\\Entities\\Client.cs",
-              "RelativeToolTip": "MicroServiceClients.Domain\\Entities\\Client.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAmwBYAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T21:13:50.665Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ClientValidationRules.cs.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Domain\\Rules\\ClientValidationRules.cs.cs",
-              "RelativeDocumentMoniker": "MicroServiceClients.Domain\\Rules\\ClientValidationRules.cs.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Domain\\Rules\\ClientValidationRules.cs.cs",
-              "RelativeToolTip": "MicroServiceClients.Domain\\Rules\\ClientValidationRules.cs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T21:19:04.949Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IClientRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Domain\\Ports\\IClientRepository.cs",
-              "RelativeDocumentMoniker": "MicroServiceClients.Domain\\Ports\\IClientRepository.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Gympt\\MicroServicioClients\\MicroServiceClients\\MicroServiceClients.Domain\\Ports\\IClientRepository.cs",
-              "RelativeToolTip": "MicroServiceClients.Domain\\Ports\\IClientRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T21:27:00.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-13T21:23:43.185Z"
             }
           ]
         }
