@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ServiceClient.Application.Interfaces;
 using ServiceClient.Domain.Entities;
-using ServiceClient.Domain.Ports;
+using ServiceClient.Domain.Common;
+using ServiceClient.Domain.Rules;
 
 namespace MicroServiceClients.API.Controllers
 {
@@ -8,89 +10,97 @@ namespace MicroServiceClients.API.Controllers
     [Route("api/[controller]")]
     public class ClientsController : ControllerBase
     {
-        private readonly IClientRepository _clientRepository;
+        private readonly IClientService _clientService;
 
-        // Inyectamos la dependencia del repositorio
-        public ClientsController(IClientRepository clientRepository)
+        public ClientsController(IClientService clientService)
         {
-            _clientRepository = clientRepository;
+            _clientService = clientService;
         }
 
         // GET: api/clients
-        // Obtiene todos los clientes
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-            var clients = await _clientRepository.GetAllAsync();
+            var clients = await _clientService.GetAllAsync();
             return Ok(clients);
         }
 
-        // GET: api/clients/5
-        // Obtiene un cliente por su ID
+        // GET: api/clients/{id}
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
-            var client = await _clientRepository.GetByIdAsync(id);
+            var client = await _clientService.GetByIdAsync(id);
             if (client == null)
-            {
-                return NotFound(); // Devuelve 404 si no se encuentra
-            }
+                return NotFound();
             return Ok(client);
         }
 
         // POST: api/clients
-        // Crea un nuevo cliente (persona + cliente)
-        // En el método Create de tu ClientsController
-
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] Client client)
         {
-            if (client == null)
+            Console.WriteLine("Cliente recibido en el microservicio:");
+            Console.WriteLine(System.Text.Json.JsonSerializer.Serialize(client));
+
+            // Validación
+            var validation = ClientValidationRules.Validate(client);
+            if (validation.IsFailure)
             {
-                return BadRequest();
+                Console.WriteLine("Error de validación: " + validation.Error);
+                return BadRequest(new { Error = validation.Error });
             }
 
-            // Asigna aquí los valores de auditoría antes de crear
-            client.CreatedAt = DateTime.UtcNow;
-            client.CreatedBy = "API"; // O el nombre del usuario autenticado
-
-            var newId = await _clientRepository.AddAsync(client);
-
-            // Usamos el nuevo ID para la respuesta CreatedAtAction
-            return CreatedAtAction(nameof(GetById), new { id = newId }, client);
+            try
+            {
+                var createdClient = await _clientService.CreateAsync(client);
+                Console.WriteLine("Cliente validado y creado: " + System.Text.Json.JsonSerializer.Serialize(createdClient));
+                return CreatedAtAction(nameof(GetById), new { id = createdClient.Value.Id }, createdClient.Value);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Excepción al crear cliente: " + ex.Message);
+                return BadRequest(new { Error = ex.Message });
+            }
         }
 
-        // PUT: api/clients/5
-        // Actualiza un cliente existente
+
+        // PUT: api/clients/{id}
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, [FromBody] Client client)
         {
             if (id != client.Id)
+                return BadRequest(new { Error = "ID de URL no coincide con ID del cliente." });
+
+            var validation = ClientValidationRules.Validate(client);
+            if (validation.IsFailure)
             {
-                return BadRequest("El ID de la URL no coincide con el ID del cuerpo de la solicitud.");
+                return BadRequest(new { Error = validation.Error });
             }
 
-            var updatedClient = await _clientRepository.UpdateAsync(client);
-            if (updatedClient == null)
+            try
             {
-                return NotFound(); // No se encontró el registro para actualizar
-            }
+                var result = await _clientService.UpdateAsync(client);
 
-            return NoContent(); // Estándar para una actualización exitosa
+                if (result.IsFailure)
+                    return BadRequest(new { Error = result.Error });
+
+                var updatedClient = result.Value;
+                return Ok(updatedClient);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { Error = ex.Message });
+            }
         }
 
-        // DELETE: api/clients/5
-        // Elimina un cliente por su ID
+        // DELETE: api/clients/{id}
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
-            var success = await _clientRepository.DeleteAsync(id);
+            var success = await _clientService.DeleteAsync(id);
             if (!success)
-            {
-                return NotFound(); // No se encontró el registro para eliminar
-            }
-
-            return NoContent(); // Estándar para una eliminación exitosa
+                return NotFound();
+            return NoContent();
         }
     }
 }

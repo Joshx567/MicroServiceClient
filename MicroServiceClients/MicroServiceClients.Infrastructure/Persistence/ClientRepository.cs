@@ -19,6 +19,10 @@ public class ClientRepository : IClientRepository
     // Lo llamamos 'AddAsync' para mantener consistencia con tus otros repositorios.
     public async Task<int> AddAsync(Client client)
     {
+        //comprobar si llegan datos...
+        Console.WriteLine("Insertando cliente en la base de datos:");
+        Console.WriteLine(System.Text.Json.JsonSerializer.Serialize(client));
+
         // La entidad 'Client' ya debe venir con los valores necesarios (name, ci, etc.)
         const string sql = @"
             INSERT INTO public.clients (
@@ -57,9 +61,6 @@ public class ClientRepository : IClientRepository
     // Simplificado a un solo UPDATE y devuelve bool para indicar éxito.
     public async Task<bool> UpdateAsync(Client client)
     {
-        // Asignamos la fecha de modificación justo antes de actualizar.
-        client.LastModification = System.DateTime.UtcNow;
-
         const string sql = @"
             UPDATE public.clients SET
                 name = @Name,

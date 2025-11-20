@@ -1,9 +1,10 @@
-using ServiceClient.Domain.Ports;
-using ServiceClient.Infrastructure.Providers;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using ServiceClient.Application;
+using ServiceClient.Application.Interfaces;
+using ServiceClient.Domain.Ports;
 using ServiceClient.Infrastructure;
+using ServiceClient.Infrastructure.Providers;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,12 +20,15 @@ Dapper.DefaultTypeMap.MatchNamesWithUnderscores = true;
 // -----------------------
 builder.Services.AddScoped<IClientConnectionProvider, NpgsqlClientConnectionProvider>();
 builder.Services.AddScoped<IClientRepository, ClientRepository>();
+builder.Services.AddScoped<IClientService, ClientService>();
+
 
 // -----------------------
 // 3. UserContext
 // -----------------------
 builder.Services.AddHttpContextAccessor();
 // builder.Services.AddScoped<IUserContext, UserContext>();  // activar si lo implementas
+
 
 // -----------------------
 // 4. JWT

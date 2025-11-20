@@ -1,6 +1,7 @@
 ﻿// Ruta: ServiceClient/Application/Services/ClientService.cs
 
 using ServiceClient.Application.Interfaces;
+using ServiceClient.Domain.Common;
 using ServiceClient.Domain.Entities;
 using ServiceClient.Domain.Ports;
 using ServiceClient.Domain.Rules;
@@ -17,50 +18,33 @@ public class ClientService : IClientService
         _clientRepository = clientRepository;
     }
 
-    public async Task<Client> CreateAsync(Client client)
+    public async Task<Result<Client>> CreateAsync(Client client)
     {
         var validationResult = ClientValidationRules.Validate(client);
         if (validationResult.IsFailure)
         {
-            throw new ArgumentException(validationResult.Error);
+            return Result<Client>.Failure(validationResult.Error); // Devuelve el error
         }
 
-        // Asigna valores de negocio por defecto.
-        client.CreatedAt = DateTime.UtcNow;
-        client.IsActive = true;
-        // Podrías asignar 'CreatedBy' aquí si tuvieras info del usuario.
-        // client.CreatedBy = "CurrentUser"; 
-
-        // --- LÓGICA CORREGIDA ---
-        // 1. Llama al repositorio, que devuelve el ID del nuevo cliente.
         var newId = await _clientRepository.AddAsync(client);
-
-        // 2. Busca al cliente recién creado usando su nuevo ID para devolver el objeto completo.
-        //    Esto garantiza que obtienes los datos tal como quedaron en la BD (con defaults, etc.).
         var createdClient = await _clientRepository.GetByIdAsync(newId);
-        if (createdClient == null)
-        {
-            // Esto sería muy raro, pero es una buena práctica manejarlo.
-            throw new InvalidOperationException("Error: No se pudo recuperar el cliente después de la creación.");
-        }
 
-        return createdClient;
+        if (createdClient == null)
+            return Result<Client>.Failure("Error: no se pudo recuperar el cliente después de la creación.");
+
+        return Result<Client>.Success(createdClient);
     }
 
-    public async Task<Client?> UpdateAsync(Client client)
+    public async Task<Result<Client>> UpdateAsync(Client client)
     {
         var validationResult = ClientValidationRules.Validate(client);
         if (validationResult.IsFailure)
-        {
-            throw new ArgumentException(validationResult.Error);
-        }
+            return Result<Client>.Failure(validationResult.Error);
 
-        // --- LÓGICA CORREGIDA ---
-        // 1. Llama al repositorio, que devuelve 'true' si la actualización fue exitosa.
         var success = await _clientRepository.UpdateAsync(client);
+        if (!success) return Result<Client>.Failure("No se pudo actualizar el cliente.");
 
-        // 2. Si fue exitoso, devuelve el objeto cliente actualizado. Si no, devuelve null.
-        return success ? client : null;
+        return Result<Client>.Success(client);
     }
 
     // --- CORREGIDO: Renombrado el método y la llamada ---
